@@ -1,0 +1,33 @@
+{
+  "name": "veloxa",
+  "version": "1.0.0",
+  "description": "Express main server",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+     "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sohamm24/Veloxa.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Soham Narvankar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sohamm24/Veloxa/issues"
+  },
+  "homepage": "https://github.com/Sohamm24/Veloxa#readme",
+
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2"
+  }
+}

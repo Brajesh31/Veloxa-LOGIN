@@ -1,0 +1,13 @@
+# Logs
+logs/
+
+# Node modules
+node_modules/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+
+# Sensitive files
+.env
+service-account.json
